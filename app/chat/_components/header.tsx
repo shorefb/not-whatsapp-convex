@@ -25,6 +25,7 @@ import { MoreVertical } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import { toast } from "sonner";
+import { Id } from "@/convex/_generated/dataModel";
 
 export default function Header({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
