@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 "use client";
 
 import { api } from "@/convex/_generated/api";
@@ -32,6 +33,7 @@ export default function ChatList({
   }, [messages]);
 
   return (
+    // eslint-disable-next-line react/react-in-jsx-scope
     <div
       ref={containerRef}
       className="flex-1 overflow-y-auto bg-background dark:bg-[#0B141A] max-h-[calc(100vh-135px)]"

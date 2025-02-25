@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { auth } from "@clerk/nextjs/server";
 import { api } from "@/convex/_generated/api";
 import { preloadQuery } from "convex/nextjs";

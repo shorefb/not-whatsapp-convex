@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 "use client";
 
 import { ConvexProvider, ConvexReactClient } from "convex/react";
